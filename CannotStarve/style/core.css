@@ -1,3 +1,43 @@
 body{
     background-image: url(../images/86ad38fbb8b61da03913adf269def61231ff595b.jpg);
 }
+
+h1{
+    text-align: center;
+    font-size:3em;
+    color:azure;
+}
+#greeting{
+    position: relative;
+    top:7em;
+}
+#wrapper{
+    margin: 0 auto;
+}
+.menu{   
+    color: azure;
+    font-size: 2em;
+    position: relative;
+    top: 10em;
+    text-align: center;
+}
+.menu > a{
+    font-family: 'Bangers', cursive;
+    font-size: 2.2em;
+    color:rgba(177, 88, 6, 0.801);
+    list-style-type: none;
+    display: flex;
+    flex-direction:column;
+}
+.menu > a:hover{
+    font-size: 2.2em;
+    background: white;
+    color: black;
+    opacity: 50%;
+    border: solid 0.1em rgba(224, 203, 7, 0.801);
+}
+.menu > p{
+    color:  rgba(7, 6, 0, 0.801);
+    font-size: 1.2em;
+    font-weight: bolder;
+}
