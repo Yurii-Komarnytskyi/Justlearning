@@ -15,7 +15,6 @@ h1{
     margin: 0 auto;
 }
 .menu{   
-    color: azure;
     font-size: 2em;
     position: relative;
     top: 10em;
@@ -28,6 +27,8 @@ h1{
     list-style-type: none;
     display: flex;
     flex-direction:column;
+    justify-content:center;
+    flex: 1;
 }
 .menu > a:hover{
     font-size: 2.2em;
@@ -35,6 +36,7 @@ h1{
     color: black;
     opacity: 50%;
     border: solid 0.1em rgba(224, 203, 7, 0.801);
+    border-radius: 2em;
 }
 .menu > p{
     color:  rgba(7, 6, 0, 0.801);
