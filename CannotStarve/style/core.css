@@ -19,8 +19,9 @@ h1{
     position: relative;
     top: 10em;
     text-align: center;
+    padding-bottom: 300px;
 }
-.menu > a{
+.menu > .menuItem{
     font-family: 'Bangers', cursive;
     font-size: 2.2em;
     color:rgba(177, 88, 6, 0.801);
@@ -28,7 +29,9 @@ h1{
     display: flex;
     flex-direction:column;
     justify-content:center;
-    flex: 1;
+    align-items: center;
+    flex: 1 0 1;
+    text-decoration: none;
 }
 .menu > a:hover{
     font-size: 2.2em;
@@ -37,9 +40,17 @@ h1{
     opacity: 50%;
     border: solid 0.1em rgba(224, 203, 7, 0.801);
     border-radius: 2em;
+    justify-content: center;
+    display: inline;
+    padding: 0 150px  0 150px ;
+    
+    /*dive into hover property, may help */
 }
 .menu > p{
     color:  rgba(7, 6, 0, 0.801);
     font-size: 1.2em;
     font-weight: bolder;
+}
+html, body{
+    height: 100%;
 }
