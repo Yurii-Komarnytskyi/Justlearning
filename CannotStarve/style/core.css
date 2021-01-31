@@ -41,9 +41,9 @@ h1{
     border: solid 0.1em rgba(224, 203, 7, 0.801);
     border-radius: 2em;
     justify-content: center;
-    display: inline;
     padding: 0 150px  0 150px ;
-    
+    display: inline;
+     
     /*dive into hover property, may help */
 }
 .menu > p{
